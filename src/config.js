@@ -9,11 +9,10 @@
 // ═══════════════════════════════════════════════════════════════
 
 export const SHEETS = {
-  events:    "ВСТАВь_URL_ЛИСТА_EVENTS",
-  countries: "ВСТАВЬ_URL_ЛИСТА_COUNTRIES",
-  leaders:   "ВСТАВЬ_URL_ЛИСТА_LEADERS",
+  events:    "https://docs.google.com/spreadsheets/d/e/2PACX-1vT-5nq0GZv7JH2fSfzOeFyKZbqnxXiI3i3-p3BD86ejzO8_DMCbzwxXDcyHvoeAOvpgTxd4N8ar-Ogp/pub?gid=0&single=true&output=csv",
+  countries: "https://docs.google.com/spreadsheets/d/e/2PACX-1vT-5nq0GZv7JH2fSfzOeFyKZbqnxXiI3i3-p3BD86ejzO8_DMCbzwxXDcyHvoeAOvpgTxd4N8ar-Ogp/pub?gid=1262227134&single=true&output=csv",
+  leaders:   "https://docs.google.com/spreadsheets/d/e/2PACX-1vT-5nq0GZv7JH2fSfzOeFyKZbqnxXiI3i3-p3BD86ejzO8_DMCbzwxXDcyHvoeAOvpgTxd4N8ar-Ogp/pub?gid=927850576&single=true&output=csv",
 };
 
-// Диапазон таймлайна (годы)
 export const YEAR_START = 1960;
 export const YEAR_END   = 1975;
